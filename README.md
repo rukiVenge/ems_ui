@@ -78,6 +78,15 @@ Now browse to the app at `http://localhost:8000/index.html`.
 
 ## Directory Layout
 
+# Latest File Directory layout (using angular-ui-route[states])
+There are changes in the Directory Layout, since the old File Directory uses ng-Route as a routing framework.
+In the Latest Directory Layout, Im using angular-ui as a routing framework. This uses 'state' to route from one screen to another.
+Note that this is just a prototype layout. I will still need to improve the organization of the js with the app.
+
+
+
+# Old File Directory layout (using ng-Route)
+
 ```
 app/                    --> all of the source files for the application
   app.css               --> default stylesheet
